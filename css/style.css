@@ -167,7 +167,7 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/bg1.png") center bottom no-repeat;
+  background: url("../img/bg.jpg") center bottom no-repeat;
   background-size: cover;
   padding: 280px 0 40px 0;
 }
@@ -491,6 +491,7 @@ h6 {
 
 #about .about-container .background {
   margin: 20px 0;
+  margin-top: 0px;
 }
 
 #about .about-container .content {
@@ -611,8 +612,13 @@ h6 {
 
 #services .icon {
   position: absolute;
-  left: -10px;
+  left: 4px;
   top: calc(50% - 32px);
+}
+
+#services .icon img{
+  width: 60px;
+  height: 60px;
 }
 
 #services .icon i {
@@ -622,7 +628,7 @@ h6 {
 }
 
 #services .title {
-  margin-left: 40px;
+  margin-left: 46px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
@@ -638,7 +644,7 @@ h6 {
 
 #services .description {
   font-size: 14px;
-  margin-left: 40px;
+  margin-left: 46px;
   line-height: 24px;
   margin-bottom: 0;
 }
@@ -664,6 +670,13 @@ h6 {
   transition: 0.3s ease-in-out;
   height: 100%;
 }
+
+#why-us .card img{
+  width: 50px;
+  height: 50px;
+  margin: auto auto;
+}
+
 
 #why-us .card:hover {
   background: #003b7a;
@@ -806,7 +819,6 @@ h6 {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 {
   font-size: 22px;
-  line-height: 1px;
   font-weight: 700;
   margin-bottom: 14px;
   padding-bottom: 0;
@@ -901,8 +913,8 @@ h6 {
 }
 
 #testimonials .testimonial-item p {
-  font-style: italic;
   margin: 0 0 15px 140px;
+  font-size: 12px;
 }
 
 #testimonials .owl-nav,
@@ -935,6 +947,7 @@ h6 {
 
 #team .member {
   text-align: center;
+  display: block;
   margin-bottom: 20px;
   position: relative;
   border-radius: 50%;
@@ -968,13 +981,13 @@ h6 {
   transition: margin 0.2s;
 }
 
-#team .member:hover .member-info {
-  background: rgba(0, 62, 128, 0.7);
+#team .member .member-info {
+
   opacity: 1;
   transition: 0.4s;
 }
 
-#team .member:hover .member-info-content {
+#team .member .member-info-content {
   margin-top: 0;
   transition: margin 0.4s;
 }
@@ -982,15 +995,16 @@ h6 {
 #team .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
+  margin-top: 120px;
   font-size: 18px;
-  color: #fff;
+  color: #333;
 }
 
 #team .member span {
   font-style: italic;
   display: block;
   font-size: 12px;
-  color: #fff;
+  color: #333;
 }
 
 #team .member .social {
